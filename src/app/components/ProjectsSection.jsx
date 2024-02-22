@@ -11,7 +11,7 @@ const projectsData = [
     description: "Welcome to my portfolio website, meticulously designed using Next.js and Tailwind CSS, and seamlessly hosted on Vercel! Here, I proudly showcase my diverse skill set, encompassing a wide range of technologies and tools such as JavaScript, React, Node.js, Python, and more. Explore my Projects section to discover a curated collection of my notable works, each demonstrating my problem-solving abilities and attention to detail",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/krisshsaahi49/krisshsaahi-portfolio",
     previewUrl: "/",
   },
   {
