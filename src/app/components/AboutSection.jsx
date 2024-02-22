@@ -1,6 +1,5 @@
 "use client";
 import React, { useTransition, useState } from "react";
-import Image from "next/image";
 import TabButton from "./TabButton";
 
 const TAB_DATA = [
@@ -24,7 +23,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Bachelors in chemical engineering, JNTU Kakinada</li>
-        <li>Master's in computer science, Purdue University</li>
+        <li>Master&apos;s in computer science, Purdue University</li>
       </ul>
     ),
   },
@@ -43,7 +42,7 @@ const TAB_DATA = [
     id: "web",
     content: (
         <ul className="list-disc pl-2">
-          <li>I'm a full-stack web developer with a passion for crafting interactive and responsive web applications. </li>
+          <li>I&apos;m a full-stack web developer with a passion for crafting interactive and responsive web applications. </li>
           <li>I leverage my expertise in JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS, and Git to bring ideas to life. </li>
           <li>Not only do I possess a thirst for learning and expanding my skillset, but I also bring a team player spirit to the table, excited to collaborate on building outstanding applications.</li>
         </ul>
@@ -54,7 +53,7 @@ const TAB_DATA = [
     id: "qa",
     content: (
         <ul className="list-disc pl-2">
-          <li>Furthermore, I'm proficient in QA automation, wielding tools like Selenium, Postman, and Java to streamline testing processes across web and API functionalities.</li>
+          <li>Furthermore, I&apos;m proficient in QA automation, wielding tools like Selenium, Postman, and Java to streamline testing processes across web and API functionalities.</li>
           <li>My experience encompasses writing automated tests using frameworks like TestNG, BDD, and TDD, as well as managing build processes with Maven and Gradle. </li>
           <li>Additionally, I have hands-on experience with performance testing tools like JMeter and mobile testing frameworks like Appium, offering a comprehensive understanding of software quality assurance.</li>
         </ul>
@@ -67,7 +66,7 @@ const TAB_DATA = [
         <ul className="list-disc pl-2">
           <li>Additionally, I have a keen interest in machine learning and actively explore its potential to enhance web applications.</li>
           <li>While still in the learning phase, I possess a solid understanding of core concepts like supervised and unsupervised learning, algorithms like linear regression and decision trees, and libraries like TensorFlow. </li>
-          <li>I'm eager to apply this knowledge to real-world problems, implementing features like intelligent predictions, personalized recommendations, and data-driven decision-making within web applications.</li>
+          <li>I&apos;m eager to apply this knowledge to real-world problems, implementing features like intelligent predictions, personalized recommendations, and data-driven decision-making within web applications.</li>
         </ul>
     ),
   },
@@ -158,3 +157,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
